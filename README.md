@@ -8,7 +8,7 @@ Android app with floating window to control CPU.
 
 * [What settings can it change?](#settings)
 * [How to use](#howtouse)
-* [License](#licenses)
+* [License](#license)
 * [Donation](#donation)
 
 [中文](#Chinese)
