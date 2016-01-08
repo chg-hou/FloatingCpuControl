@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="pref_static_field_key"
+        android:selectable="false"
+        android:summary="@string/pref_scale_ratio_summary"
+        android:title="@string/pref_scale_ratio" />
+
+    <com.houcg.floatingcpucontrol.SeekBarPreference
+        android:defaultValue="100"
+        android:key="scale_ratio" />
+
+    <Preference
+        android:key="pref_static_field_key"
+        android:selectable="false"
+        android:summary="@string/pref_transparence_summary"
+        android:title="@string/pref_transparence" />
+
+
+    <com.houcg.floatingcpucontrol.SeekBarPreference
+        android:defaultValue="80"
+        android:key="Transparence" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="clickable"
+        android:summary="@string/pref_clickable_summary"
+        android:title="@string/pref_clickable" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="show_toast"
+        android:summary="@string/pref_show_toast_summary"
+        android:title="@string/pref_show_toast" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="show_gpu"
+        android:summary="@string/pref_switch_gpu"
+        android:title="@string/pref_switch_gpu_summary" />
+
+    <EditTextPreference
+        android:defaultValue="1000"
+        android:key="refresh_rate"
+        android:maxLength="6"
+        android:numeric="integer"
+        android:summary="@string/pref_refresh_rate_summary"
+        android:title="@string/pref_refresh_rate" />
+    <PreferenceCategory android:title="@string/pref_about_me">
+        <PreferenceScreen
+            android:summary="@string/pref_play_store_summary"
+            android:title="@string/pref_play_store">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/pref_play_store_address" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:summary="@string/pref_github_summary"
+            android:title="@string/pref_github">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/pref_github_address" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

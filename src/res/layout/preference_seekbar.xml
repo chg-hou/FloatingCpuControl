@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.93"
+        android:orientation="vertical">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center">
+
+            <SeekBar
+                android:id="@+id/seekbar_in_preference"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="80" />
+
+            <TextView
+                android:id="@+id/TextView_in_preference"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Text here" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+
+    <!--<TextView--><!--android:id="@android:id/title"--><!--style="@android:style/TextAppearance.DeviceDefault.SearchResult.Title"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="Title" />-->
+
+    <!--<TextView--><!--android:id="@android:id/summary"--><!--style="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="Summary" />-->

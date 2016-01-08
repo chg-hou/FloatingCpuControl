@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/infoFloatLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button_minimize"
+                android:layout_width="30dp"
+                android:layout_height="34dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/expander_maximized" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/controlFloatLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right|top"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/button_close"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/ic_clear_search_api_holo_dark" />
+
+                <RadioGroup
+                    android:id="@+id/governorRadioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1000"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonAuto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:text="@string/float_windows_auto" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonManual"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:text="@string/float_windows_manual" />
+
+                </RadioGroup>
+
+
+                <ImageButton
+                    android:id="@+id/button_minimize_space"
+                    android:layout_width="30dp"
+                    android:layout_height="34dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/expander_maximized"
+                    android:clickable="false"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ManualGovernorLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="@string/float_windows_little_cores" />
+
+                <Spinner
+                    android:id="@+id/core_spinner_little"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/number"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/float_windows_big_cores" />
+
+                <Spinner
+                    android:id="@+id/core_spinner_big"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/number"
+                    android:spinnerMode="dropdown" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cpuLoadLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/float_windows_cpu_load" />
+
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+
+                        <ProgressBar
+                            android:id="@+id/cpuLoadBar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:indeterminate="false"
+                            android:max="100"
+                            android:maxHeight="10dp"
+                            android:minHeight="10dp"
+                            android:progress="25"
+                            android:progressDrawable="@drawable/progressbar_2"
+                            android:secondaryProgress="70" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:id="@+id/cpuLoadText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="load/block/idle"
+                            android:textColor="#000000" />
+                    </RelativeLayout>
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cpuInfoLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/gpuLoadLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView7d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/float_windows_gpu_load" />
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent">
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent">
+
+                            <ProgressBar
+                                android:id="@+id/gpuLoadBar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:indeterminate="false"
+                                android:max="100"
+                                android:maxHeight="10dp"
+                                android:minHeight="10dp"
+                                android:progress="25"
+                                android:progressDrawable="@drawable/progressbar_2"
+                                android:secondaryProgress="70" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <TextView
+                                android:id="@+id/gpuLoadText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:text="load/block/idle"
+                                android:textColor="#000000" />
+                        </RelativeLayout>
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/gpuDVFScheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:scaleX="0.8"
+                        android:scaleY="0.8"
+                        android:text="DVFS " />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical">
+
+                        <RatingBar
+                            android:id="@+id/gpuFreqRatingBar"
+                            style="@style/myRatingBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:rating="1"
+                            android:stepSize="1"></RatingBar>
+
+                        <TextView
+                            android:id="@+id/gpuFreqText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="New Text" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

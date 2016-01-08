@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CPU Control for MX4</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="root_ok">Root permission gained.\nOperate on your own risk.</string>
+    <string name="root_wrong">Fail to gain root permission.\nUnable to change setting.</string>
+    <string name="freq_set_to">Scaling_max_freq set to </string>
+
+    <string name="float_windows_auto">Auto</string>
+    <string name="float_windows_manual">Manual</string>
+    <string name="float_windows_little_cores">Little Core(s)</string>
+    <string name="float_windows_big_cores">Big Core(s)</string>
+    <string name="float_windows_cpu_load">  CPU load  </string>
+    <string name="float_windows_cpu_offline">offline</string>
+    <string name="float_windows_gpu_load">  GPU load  </string>
+
+    <string name="pref_clickable">Clickable</string>
+    <string name="pref_clickable_summary">When turned off, the floating windows is unclickable</string>
+    <string name="pref_switch_gpu">Show GPU panel</string>
+    <string name="pref_switch_gpu_summary">Show GPU info if GPU is supported</string>
+    <string name="pref_show_toast">Display toast notification</string>
+    <string name="pref_show_toast_summary"> </string>
+
+    <string name="pref_scale_ratio">Scale Ratio</string>
+    <string name="pref_scale_ratio_summary">Set the scale ratio of the floating window</string>
+
+    <string name="pref_transparence">Transparence</string>
+    <string name="pref_transparence_summary">Set the transparence of the window</string>
+
+    <string name="pref_refresh_rate">Refresh Interval</string>
+    <string name="pref_refresh_rate_summary">(millisecond)</string>
+
+    <string name="pref_about_me">About</string>
+    <string name="pref_play_store">Rate and comment on Google play store…</string>
+    <string name="pref_play_store_summary"> </string>
+    <string name="pref_play_store_address">https://play.google.com/store/apps/details?id=com.houcg.floatingcpucontrol</string>
+
+    <string name="pref_github">Visit the project page in Github</string>
+    <string name="pref_github_summary"> Donations are welcome :) </string>
+    <string name="pref_github_address">https://github.com/chg-hou/FloatingCpuControl</string>
+
+</resources>

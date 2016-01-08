@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MX4 CPU 控制</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="root_ok">已获得Root权限。\n请谨慎操作。</string>
+    <string name="root_wrong">无法获取Root权限。\n无法修改设置。</string>
+    <string name="freq_set_to">Scaling_max_freq 设为</string>
+
+    <string name="float_windows_auto">自动</string>
+    <string name="float_windows_manual">手动</string>
+    <string name="float_windows_little_cores">小核心数</string>
+    <string name="float_windows_big_cores">大核心数</string>
+    <string name="float_windows_cpu_load">  CPU 使用率  </string>
+    <string name="float_windows_cpu_offline">离线</string>
+    <string name="float_windows_gpu_load">  GPU 使用率  </string>
+
+
+    <string name="pref_clickable">悬浮窗可点击</string>
+    <string name="pref_clickable_summary">关闭后悬浮窗不接受点击操作</string>
+    <string name="pref_switch_gpu">显示GPU信息</string>
+    <string name="pref_switch_gpu_summary">如果GPU被支持则显示GPU信息</string>
+    <string name="pref_show_toast">显示 toast 通知</string>
+    <string name="pref_show_toast_summary"> </string>
+
+    <string name="pref_scale_ratio">窗口缩小比例</string>
+    <string name="pref_scale_ratio_summary">可设置窗口大小</string>
+
+    <string name="pref_transparence">透明度</string>
+    <string name="pref_transparence_summary">窗口透明度</string>
+
+    <string name="pref_refresh_rate">刷新周期</string>
+    <string name="pref_refresh_rate_summary">（单位 毫秒）</string>
+
+    <string name="pref_about_me">关于</string>
+    <string name="pref_play_store">访问Google Play…</string>
+    <string name="pref_play_store_summary"> </string>
+    <string name="pref_play_store_address">https://play.google.com/store/apps/details?id=com.houcg.floatingcpucontrol</string>
+
+
+    <string name="pref_github">访问Github页面…</string>
+    <string name="pref_github_summary"> 欢迎捐赠 :)  </string>
+    <string name="pref_github_address">https://github.com/chg-hou/FloatingCpuControl</string>
+
+</resources>
