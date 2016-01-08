@@ -1,3 +1,8 @@
+# Floating CPU Control 
+
+
+Android app with floating window to control CPU.
+
 
 [English](#English)
 
@@ -14,16 +19,11 @@
 * [捐赠](#donation_cn)
 
 ![Screenshot](Screenshots/3_small.png)
-
 ![Screenshot](Screenshots/cn/5_small.png)
 
 ***
 <a name="English"/>
 
-# Floating CPU Control 
-
-
-Android app with floating window to control CPU.
 
 
 This app requires ROOT permissions to change settings.
@@ -71,6 +71,7 @@ Disable GPU dvfs
 7. Touch and hold on the blank area to open/close the preference screen. Touch and drag to move the window.
 
 > **CPU load bar:**    user / system(including IO) / idle
+
 > **GPU load bar:**    loading / block / idle
 
 ## Reference projects:
@@ -85,13 +86,14 @@ The source code for this app is licensed under the MIT license, which you can fi
 ## Donation
 <a name="donation"/>
 
-Paypal
+If you find this app useful, you are welcome to donate any amount you wish :)
 
-[![paypal](https://www.paypalobjects.com/en_GB/SG/i/btn/btn_paynowCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZR892QL6RC46G)
+Paypal  | WeChat
+------------- | -------------
+[![paypal](https://www.paypalobjects.com/en_GB/SG/i/btn/btn_paynowCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZR892QL6RC46G) | ![Weixin](Screenshots/cn/weixin_pay/weinxin.png)
 
-WeChat
 
-![Weixin](Screenshots/cn/weixin_pay/weinxin.png)
+
 
 ***
 <a name="Chinese"/>
@@ -158,10 +160,8 @@ The source code for this app is licensed under the MIT license, which you can fi
 ## 捐赠
 <a name="donation_cn"/>
 
-Paypal
+欢迎捐赠,金额随意 :)
 
-[![paypal](https://www.paypalobjects.com/en_GB/SG/i/btn/btn_paynowCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZR892QL6RC46G)
-
-微信
-
-![Weixin](Screenshots/cn/weixin_pay/weinxin.png)
+Paypal  | 微信
+------------- | -------------
+[![paypal](https://www.paypalobjects.com/en_GB/SG/i/btn/btn_paynowCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZR892QL6RC46G) | ![Weixin](Screenshots/cn/weixin_pay/weinxin.png)
