@@ -29,6 +29,12 @@ Android app with floating window to control CPU.
 This app requires ROOT permissions to change settings.
 By now, this app is only tested using Meizu MX4. It MAY work in other devices.
 
+[![playstore](https://www.gstatic.com/android/market_images/web/play_one_bar_logo_2x.png)](https://play.google.com/store/apps/details?id=com.houcg.floatingcpucontrol)
+
+[![flymestore](http://i3.res.meizu.com/resources/portal/common/images/flyme.png)](http://app.flyme.cn/apps/public/detail?package_name=com.houcg.floatingcpucontrol)
+
+
+
 ## What settings can it change?
 <a name="settings"/>
 
@@ -102,6 +108,13 @@ Paypal  | WeChat
 
 
 修改设置时需要ROOT权限。目前仅在Meizu MX4中测试。
+
+
+[![playstore](https://www.gstatic.com/android/market_images/web/play_one_bar_logo_2x.png)](https://play.google.com/store/apps/details?id=com.houcg.floatingcpucontrol)
+
+[![flymestore](http://i3.res.meizu.com/resources/portal/common/images/flyme.png)](http://app.flyme.cn/apps/public/detail?package_name=com.houcg.floatingcpucontrol)
+
+
 
 ## App可设置的参数
 <a name="settings_cn"/>
