@@ -36,6 +36,9 @@ By now, this app is only tested using Meizu MX4. It MAY work in other devices.
 
 
 ## What settings can it change?
+
+> Note: <i>/proc/hps</i> is only supported by mtk CPU. In other words, big/little core control function will work only in models with mtk cpu (i.e. MX4). In models with other brand CPU (i.e. MX4 Pro), this function will be hidden.
+
 <a name="settings"/>
 
 Active cores manually
@@ -109,6 +112,8 @@ Paypal  | WeChat
 
 修改设置时需要ROOT权限。目前仅在Meizu MX4中测试。
 
+> 注意： <i> /proc/hps</i> 仅被MTK系的CPU支持。大小核心调节功能只在采用MTK CPU的型号（如MX4）中可见，采用其他CPU的型号（如MX4 PRO）中将被隐藏。
+
 
 [![playstore](https://www.gstatic.com/android/market_images/web/play_one_bar_logo_2x.png)](https://play.google.com/store/apps/details?id=com.houcg.floatingcpucontrol)
 
@@ -175,6 +180,5 @@ The source code for this app is licensed under the MIT license, which you can fi
 
 欢迎捐赠,金额随意 :)
 
-Paypal  | 微信
-------------- | -------------
-[![paypal](https://www.paypalobjects.com/en_GB/SG/i/btn/btn_paynowCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZR892QL6RC46G) | ![Weixin](Screenshots/cn/weixin_pay/weinxin.png)
+Paypal  
+[![paypal](https://www.paypalobjects.com/en_GB/SG/i/btn/btn_paynowCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZR892QL6RC46G) 
