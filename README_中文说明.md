@@ -20,6 +20,8 @@
 
 修改设置时需要ROOT权限。目前仅在Meizu MX4中测试。
 
+> 注意： <i> /proc/hps</i> 仅被MTK系的CPU支持。大小核心调节功能只在采用MTK CPU的型号（如MX4）中可见，采用其他CPU的型号（如MX4 PRO）中将被隐藏。
+
 ## App可设置的参数
 <a name="settings_cn"/>
 
@@ -79,6 +81,5 @@ The source code for this app is licensed under the MIT license, which you can fi
 
 欢迎捐赠,金额随意 :)
 
-Paypal  | 微信
-------------- | -------------
-[![paypal](https://www.paypalobjects.com/en_GB/SG/i/btn/btn_paynowCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZR892QL6RC46G) | ![Weixin](Screenshots/cn/weixin_pay/weinxin.png)
+Paypal  
+[![paypal](https://www.paypalobjects.com/en_GB/SG/i/btn/btn_paynowCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZR892QL6RC46G)
